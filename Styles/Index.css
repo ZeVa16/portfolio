@@ -1,0 +1,263 @@
+* {
+    font-family: Darker Grotesque;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: #420D32;
+}
+
+header h1 {
+    font-weight: 100;
+    text-align: center;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+
+.Nav_buttons button {
+    color: white;
+    padding: 10px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 30px;
+    background-color: #70275a;
+    border-radius: 4px;
+    border: none;
+}
+
+/* Navigation Bar  */
+
+/* Body */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#0a0208, 70%, #802751);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.info {
+    color: white;
+    font-family: Darker Grotesque;
+    background-image: url(/Resources/mastercard-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    padding: 70px;
+}
+
+/* Body */
+
+/* SVG ICONS */
+
+.SVG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.SVG img {
+    height: 60px;
+    padding: 10px;
+}
+
+/* SVG ICONS */
+
+/* Footer Buttons */
+
+footer {
+ display: none;   
+}
+
+@media (max-width: 1000px) and (min-width: 500px) {
+
+    /* Navigation bar */
+    header {
+        padding: 10px;
+        color: white;
+        background-color: #420D32;
+    }
+
+    header h1 {
+        font-weight: 100;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    header button {
+        display: none;
+    }
+
+    /* Navigation Bar  */
+
+    /* Body */
+
+    body {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#0a0208, 70%, #802751);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .info {
+        padding: 40px;
+        color: white;
+        font-size: 30px;
+        font-family: Darker Grotesque;
+        background-image: url(/Resources/mastercard-svgrepo-com.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+        text-align: center;
+        min-height: 350px;
+        max-height: 500px;
+    }
+
+
+    /* Body */
+
+    /* SVG ICONS */
+
+    .SVG {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .SVG img {
+        height: 100px;
+        padding: 20px;
+    }
+
+    /* SVG ICONS */
+
+    /* Footer Buttons */
+
+    footer {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    footer button {
+        font-size: 30px;
+        font-weight: 100;
+        width: 320px;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 9px;
+        border: none;
+        background-color: #420D32;
+        color: white;
+    }
+
+    footer button:active {
+        background-color: #6b2356;
+        transition: .2s;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+    /* Navigation bar */
+    header {
+        padding: 10px;
+        color: white;
+        background-color: #420D32;
+    }
+
+    header h1 {
+
+        font-weight: 100;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    header button {
+        display: none;
+    }
+
+    /* Navigation Bar  */
+
+    /* Body */
+
+    body {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#0a0208, 70%, #802751);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .info {
+        color: white;
+        font-family: Darker Grotesque;
+        background-image: url(/Resources/mastercard-svgrepo-com.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        text-align: center;
+        padding: 70px;
+    }
+
+    /* Body */
+
+    /* SVG ICONS */
+
+    .SVG {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .SVG img {
+        height: 60px;
+        padding: 10px;
+    }
+
+    /* SVG ICONS */
+
+    /* Footer Buttons */
+
+    footer {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    footer button {
+        font-size: 30px;
+        font-weight: 100;
+        width: 180px;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 9px;
+        border: none;
+        background-color: #420D32;
+        color: white;
+    }
+
+    footer button:active {
+        background-color: #6b2356;
+        transition: .2s;
+    }
+}
